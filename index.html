@@ -7,25 +7,41 @@
     <title>Tradenow.com</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo"><img class="logoimage" src="svg/logo.svg" alt="Tradenow"></div>
-        <div class="searchbar">
-            <input type="search" placeholder="Search for a Product...">
-                <button><i class="fa fa-search"></i></button>
-            </input>
-        </div>
-        <div class="checkout">
-            <div class="wishlistdiv">
-                <a href="#" class="wishlist"><i class="fa fa-heart"></i> Wishlist</a>
+    <header>
+        <navbar class="navbar">       
+            <div class="logo"><img class="logoimage" src="svg/logo.svg" alt="Tradenow">
             </div>
-            <div class="cartdiv">
-                <a href="#" class="cart">CART</a>
-                <img class="cartimage" src="svg/shopping-cart.svg">
+                <div class="searchbar">
+                    <input type="search" placeholder="Search for a Product...">
+                        <button><i class="fa fa-search"></i></button>
+                    </input>
+                </div>
+                <div class="checkout">
+                    <div class="wishlistdiv">
+                        <a href="#" class="wishlist"><i class="fa fa-heart"></i> Wishlist</a>
+                    </div>
+                    <div class="cartdiv">
+                        <a href="#" class="cart">CART</a>
+                        <img class="cartimage" src="svg/shopping-cart.svg">
+                    </div>
+                </div>
+        </navbar>
+        <menu>
+            <div class="mainmenu">
+                    <a href="#">Shop by Department</a>
+                    <a href="#">Recently Viewed</a>
+                    <a class="active" href="#">Hottest Deals</a>
+                    <a href="#">Brands</a>
             </div>
-        </div>
-    </nav>
+            <div class="login">                  
+                    <a><p>Deliver to</p>AKL 2014</a>
+                    <a class=""><p>My account</p>Sign Up or Sign In</a>
+            </div>
+        </menu>
+    </header>
     <main></main>
     <footer></footer>
 </body>
