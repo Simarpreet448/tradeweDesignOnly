@@ -1,0 +1,135 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.navbar
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    height: 5vh;
+    padding: 2.3rem;
+}
+.logo
+{
+    width: 18%;
+}
+.logoimage
+{
+    width:60%;
+    margin-left:5rem;
+}
+.searchbar
+{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.searchbar > input
+{
+    width:90%;
+    height:2.5rem;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    font-size:1rem;
+    padding-left: 1rem;
+    border-left:1px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    border-right:0px;
+}
+.searchbar > button
+{
+    width:7%;
+    height:2.5rem;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    font-size:1.2rem;
+    background-color: #518dd6;
+    color: white;
+    text-align: center;
+    border-left:0px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+}
+.searchbar > button:hover
+{
+    background-color:#6f9fdb;
+}
+.checkout
+{
+    display:flex;
+    width: 25%;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+}
+.wishlistdiv
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:40%;
+}
+.cartdiv
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    width:45%;
+    border: 2px solid #888888;
+    padding: 1px 15px;
+    border-radius: 5px;
+    background: linear-gradient(105deg, #888888 55%, white 25%)
+}
+.cartdiv >  a
+{
+    pointer-events: none;
+}
+.checkout > div > a
+{
+    text-decoration: none;
+    padding: 10px 16px;
+}
+.cartimage
+{
+    width: 20%;
+    margin: 0;
+}
+.wishlist
+{
+
+    font-size:1.2rem;
+    letter-spacing:1px;
+    font-weight: 700;
+    color: #414042;
+}
+.wishlist:hover
+{
+    color: #ed193a;
+    transition: .2s ease-in-out;
+}
+.cartbackground
+{
+    width:100%;
+    height:100%;
+    background-color: #414042;
+}
+.cart
+{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
