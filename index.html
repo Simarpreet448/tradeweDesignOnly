@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
         <navbar class="navbar">       
             <div class="logo"><img class="logoimage" src="svg/logo.svg" alt="Tradenow">
-            </div>
-                <div class="searchbar">
+                </div>
+                    <div class="searchbar">
                     <input type="search" placeholder="Search for a Product...">
                         <button><i class="fa fa-search"></i></button>
                     </input>
@@ -32,10 +34,23 @@
         </navbar>
         <menu>
             <div class="mainmenu">
-                    <a href="#"><i style="padding:5px; font-size:1rem;" class="fa fa-bars"></i> Shop by Department<i style="padding-left: 10px; font-size: 1.1rem;" class="fa fa-caret-down"></i></a>
-                    <a href="#"><i style="padding-right: 10px;" class="fa fa-history"></i>Recently Viewed</a>
-                    <a class="active" href="#">Hottest Deals</a>
-                    <a href="#">Brands</a>
+              <div class="dropdown"> 
+                <a href="#"><i style="padding-right:5px; padding-top: -1px; font-size:1rem;" class="fa fa-bars"></i> Shop by Department<i style="padding-left: 10px; font-size: 1.1rem;" class="fa fa-caret-down"></i></a>
+                <div class="dropdownmenu">
+                  <a href="#">Laptop and computers</a>
+                  <a href="#">Phone, Tablets & wearables</a>
+                  <a href="#">Camera & drones</a>
+                  <a href="#">Laptop and computers</a>
+                  <a href="#">Audio</a>
+                  <a href="#">heating and cooling</a>
+                  <a href="#">Heath and beauty</a>
+                  <a href="#">Kids</a>
+                  <a href="#">Furniture</a>
+                </div>                                                                                                             
+              </div>  
+                <a href="#"><i style="padding-right:10px; padding-top: -2px;" class="fa fa-history"></i>Recently Viewed<i style="padding-left: 10px; font-size: 1.1rem;" class="fa fa-caret-down"></i></a>
+                <a class="active" href="#">Hottest Deals</a>
+                <a href="#">Brands</a>     
             </div>
             <div class="login">                  
                     <a id="highlight1"><p id="highlightpera1">Deliver to</p>AKL 2014</a>
@@ -43,7 +58,53 @@
             </div>
         </menu>
     </header>
-    <main></main>
+    <main>
+      <div class="maincontainer">
+        <div class="leftpane"></div>
+        <div class="productscontainer">
+          <h3>Hot Deals</h3>
+          <div class="productslist">
+            <a href="#" class="product">
+              <span class="hot">HOT!</span>
+              <img src="/productimages/50inchTV.webp">
+              <p>Kogan 50" 4K UHD HDR LED Smart TV</p>
+              <h3>$459.50</h3>
+            </a>
+            <a href="#" class="product">
+              <span class="hot">HOT!</span>
+              <img src="/productimages/50inchTV.webp">
+              <p>Kogan 50" 4K UHD HDR LED Smart TV</p>
+              <h3>$459.50</h3>
+            </a>
+            <a href="#" class="product">
+              <span class="hot">HOT!</span>
+              <img src="/productimages/50inchTV.webp">
+              <p>Kogan 50" 4K UHD HDR LED Smart TV</p>
+              <h3>$459.50</h3>
+            </a>
+            <a href="#" class="product">
+              <span class="hot">HOT!</span>
+              <img src="/productimages/50inchTV.webp">
+              <p>Kogan 50" 4K UHD HDR LED Smart TV</p>
+              <h3>$459.50</h3>
+            </a>
+            <a href="#" class="product">
+              <span class="hot">HOT!</span>
+              <img src="/productimages/50inchTV.webp">
+              <p>Kogan 50" 4K UHD HDR LED Smart TV</p>
+              <h3>$459.50</h3>
+            </a>
+            <a href="#" class="product">
+              <span class="hot">HOT!</span>
+              <img src="/productimages/50inchTV.webp">
+              <p>Kogan 50" 4K UHD HDR LED Smart TV</p>
+              <h3>$459.50</h3>
+            </a>
+          </div>
+        </div>
+        <div class="rightpane"></div>
+      </div>
+    </main>
     <footer></footer>
     <script type="text/javascript" src="js/site.js"></script>
 </body>
