@@ -61,7 +61,7 @@ menu {
 
 .active {
   background-color: #ed193a;
-  color: white;
+  color: white !important;
 }
 
 .mainmenu > a:hover {

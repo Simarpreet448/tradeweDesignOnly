@@ -246,11 +246,6 @@ header {
   padding: 10px 20px;
 }
 
-.active {
-  background-color: #ed193a;
-  color: white;
-}
-
 .login > a:hover {
   background-color: #ed193a;
   color: white;

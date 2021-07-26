@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/menu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -31,18 +32,19 @@
         </navbar>
         <menu>
             <div class="mainmenu">
-                    <a href="#">Shop by Department</a>
-                    <a href="#">Recently Viewed</a>
+                    <a href="#"><i style="padding:5px; font-size:1rem;" class="fa fa-bars"></i> Shop by Department<i style="padding-left: 10px; font-size: 1.1rem;" class="fa fa-caret-down"></i></a>
+                    <a href="#"><i style="padding-right: 10px;" class="fa fa-history"></i>Recently Viewed</a>
                     <a class="active" href="#">Hottest Deals</a>
                     <a href="#">Brands</a>
             </div>
             <div class="login">                  
-                    <a><p>Deliver to</p>AKL 2014</a>
-                    <a class=""><p>My account</p>Sign Up or Sign In</a>
+                    <a id="highlight1"><p id="highlightpera1">Deliver to</p>AKL 2014</a>
+                    <a id="highlight2"><p id="highlightpera2">My account</p>Sign Up or Sign In</a>
             </div>
         </menu>
     </header>
     <main></main>
     <footer></footer>
+    <script type="text/javascript" src="js/site.js"></script>
 </body>
 </html>
