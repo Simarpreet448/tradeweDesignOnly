@@ -39,6 +39,7 @@
     flex-direction: column;
     padding: 0.8rem;
     align-items: flex-start;
+    z-index: 1;
     justify-content: center;
     background-color: #f7f7f7;
     position:absolute;

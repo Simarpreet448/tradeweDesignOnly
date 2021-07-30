@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/dropdown.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/logindropdown.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
@@ -52,9 +53,24 @@
                 <a class="active" href="#">Hottest Deals</a>
                 <a href="#">Brands</a>     
             </div>
-            <div class="login">                  
-                    <a id="highlight1"><p id="highlightpera1">Deliver to</p>AKL 2014</a>
-                    <a id="highlight2"><p id="highlightpera2">My account</p>Sign Up or Sign In</a>
+            <div class="logindropdown"> 
+                    <div class="dropdown">                
+                    <a class="signinlink" id="highlight2"><p id="highlightpera2">My account</p>Sign Up or Sign In <i style="padding-left: 5px; font-size: 1.2rem;" class="fa fa-user" aria-hidden="true"></i>
+                    </a>
+                    <div class="dropdownlogin">
+                      <a class="signinsignup" href="#">Sign In/Sign Up</a>
+                      <div class="myshopping">
+                        <p>My Shopping</p>
+                        <a href="#">Order history</a>
+                        <a href="#">Wish list</a>
+                      </div>
+                      <div class="myshopping">
+                        <p>Account details</p>
+                        <a href="#">Contact Details</a>
+                        <a href="#">Dilievery Addresses</a>
+                      </div>
+                    </div>       
+                    </div>       
             </div>
         </menu>
     </header>
@@ -64,12 +80,7 @@
         <div class="productscontainer">
           <h3>Hot Deals</h3>
           <div class="productslist">
-            <a href="#" class="product">
-              <span class="hot">HOT!</span>
-              <img src="/productimages/50inchTV.webp">
-              <p>Kogan 50" 4K UHD HDR LED Smart TV</p>
-              <h3>$459.50</h3>
-            </a>
+
             <a href="#" class="product">
               <span class="hot">HOT!</span>
               <img src="/productimages/Air friyer.webp">

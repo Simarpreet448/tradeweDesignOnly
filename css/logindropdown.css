@@ -1,0 +1,79 @@
+.logindropdown
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width:30%;
+    height: 100%;
+}
+
+.dropdown > a > p
+{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #888888;
+    font-weight: 600;
+}
+#highlight2
+{
+    padding: 10px 25px !important;
+}
+.dropdownlogin
+{
+    display: none;
+}
+.logindropdown:hover .dropdownlogin
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+    align-items: center;
+    z-index:2;
+    justify-content: center;
+    background-color: #f7f7f7;
+    position:absolute;
+    width: 100%;
+    top:52px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,.16),0 2px 3px rgba(0,0,0,.12);
+}
+.signinsignup
+{
+    text-decoration: none;
+    padding: 8px 30px;
+    background-color: #518dd6;
+    color: white;
+    border-radius: 3px;
+}
+.signinsignup:hover
+{
+    background-color: #79abe9;
+}
+.myshopping
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1rem;
+    align-items: flex-start;
+}
+.myshopping > p
+{
+    margin-bottom: 0.5rem;
+    color: #888888;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.myshopping > a
+{
+    text-decoration: none;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #414042;
+}
+.myshopping > a:hover
+{
+    color: #518dd6;
+}
